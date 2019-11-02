@@ -12,3 +12,5 @@ jobs:
         run: mvn test
       - name: Package
         run: mvn -Dmaven.test.skip=true package
+      - name: Try it!
+        run: java -cp target/kotlin-maven-1.0-SNAPSHOT-jar-with-dependencies.jar com.mycompany.app.App

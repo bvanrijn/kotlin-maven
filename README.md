@@ -29,5 +29,5 @@ directory layout to match.
 # Run tests and create a JAR
 mvn package
 # Run it
-java -cp target/kotlin-maven-1.0-SNAPSHOT.jar com.mycompany.App
+java -cp target/kotlin-maven-1.0-SNAPSHOT-jar-with-dependencies.jar com.mycompany.app.App
 ```
