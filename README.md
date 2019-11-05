@@ -7,18 +7,7 @@ It's based on [Maven in 5 Minutes](https://maven.apache.org/guides/getting-start
 
 ## Setup
 
-First clone the repository and change to it:
-
-```bash
-git clone --depth 1 https://github.com/bvanrijn/kotlin-maven
-cd kotlin-maven
-```
-
-Then, remove the `.git` directory (and optionally, `.github`, too, if you don't want to use GitHub Actions):
-
-```bash
-rm -rf .git
-```
+First, click <a href="https://github.com/bvanrijn/kotlin-maven/generate"><img src=images/use-this-template.png alt="the Use this template button" style="height: 1.5em"/></a> and create a repository from that screen.
 
 Then update `pom.xml` to change the name, group ID, artifact ID, et cetera, and update the `src/main` and `src/test`
 directory layout to match.
